@@ -431,4 +431,7 @@ function loading() {
         }, 1000);
     }, 3600);
 }
-loading()
+
+setTimeout(() => {
+    loading()
+}, 1000);
